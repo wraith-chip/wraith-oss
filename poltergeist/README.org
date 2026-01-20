@@ -1,0 +1,2 @@
+* Poltergeist
+Wraith's architectural simulator. Use this thing as a performance model and potentially a golden model. Current tooling only uses it as an architectural model. Couldn't make it Rust because Rust is mental on such a tight schedule.
