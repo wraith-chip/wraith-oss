@@ -1,0 +1,53 @@
+#+title: VCU118 WRAITH Pin Mappings
+
+Accurate to FMCP pinout and WRAITH PCB as of 4/04/2026. Will need addl pins for CLK/RST on board.
+
+| Pin Name            | Pin  | Port Name    | Dir   |
+|---------------------+------+--------------+-------|
+| FMCP_HSPC_LA0_CC_P  | AL35 | wraith_clk   | Out   |
+| FMCP_HSPC_LA03_P    | AT39 | wraith_rst   | Out   |
+| FMCP_HSPC_HA03_P    | W12  | dbus[0]      | Bidir |
+| FMCP_HSPC_HA02_P    | AA12 | dbus[1]      | Bidir |
+| FMCP_HSPC_HA07_P    | AA14 | dbus[2]      | Bidir |
+| FMCP_HSPC_HA06_P    | U13  | dbus[3]      | Bidir |
+| FMCP_HSPC_HA11_P    | R12  | dbus[4]      | Bidir |
+| FMCP_HSPC_HA10_P    | V16  | dbus[5]      | Bidir |
+| FMCP_HSPC_HA14_P    | M11  | dbus[6]      | Bidir |
+| FMCP_HSPC_HA17_CC_P | R11  | dbus[7]      | Bidir |
+| FMCP_HSPC_HA18_P    | P15  | dbus[8]      | Bidir |
+| FMCP_HSPC_HA21_P    | K14  | dbus[9]      | Bidir |
+| FMCP_HSPC_HA22_P    | K12  | dbus[10]     | Bidir |
+| FMCP_HSPC_HA23_P    | K11  | dbus[11]     | Bidir |
+| FMCP_HSPC_LA22_P    | N34  | dbus[12]     | Bidir |
+| FMCP_HSPC_LA21_P    | M35  | dbus[13]     | Bidir |
+| FMCP_HSPC_LA25_P    | Y34  | dbus[14]     | Bidir |
+| FMCP_HSPC_LA24_P    | T34  | dbus[15]     | Bidir |
+| FMCP_HSPC_LA29_P    | U35  | dbus[16]     | Bidir |
+| FMCP_HSPC_LA28_P    | M36  | dbus[17]     | Bidir |
+| FMCP_HSPC_LA31_P    | P37  | dbus[18]     | Bidir |
+| FMCP_HSPC_LA30_P    | N38  | dbus[19]     | Bidir |
+| FMCP_HSPC_LA33_P    | L34  | dbus[20]     | Bidir |
+| FMCP_HSPC_HA20_P    | M15  | dbus[21]     | Bidir |
+| FMCP_HSPC_HA15_P    | M13  | dbus[22]     | Bidir |
+| FMCP_HSPC_HA16_P    | T14  | dbus[23]     | Bidir |
+| FMCP_HSPC_HA12_P    | T16  | dbus[24]     | Bidir |
+| FMCP_HSPC_HA13_P    | V13  | dbus[25]     | Bidir |
+| FMCP_HSPC_HA08_P    | U11  | dbus[26]     | Bidir |
+| FMCP_HSPC_HA09_P    | W14  | dbus[27]     | Bidir |
+| FMCP_HSPC_HA04_P    | AA13 | dbus[28]     | Bidir |
+| FMCP_HSPC_HA05_P    | R14  | dbus[29]     | Bidir |
+| FMCP_HSPC_HA00_CC_P | N14  | dbus[30]     | Bidir |
+| FMCP_HSPC_HA01_CC_P | V15  | dbus[31]     | Bidir |
+| FMCP_HSPC_LA01_CC_P | AL30 | rvtu_0_rst   | Out   |
+| FMCP_HSPC_LA06_P    | AT35 | rvtu_1_rst   | Out   |
+|---------------------+------+--------------+-------|
+|                     |      | DEBUG        |       |
+|---------------------+------+--------------+-------|
+| FMCP_HSPC_LA05_P    | AP38 | dbus_fsm[0]  | In?   |
+| FMCP_HSPC_LA09_P    | AJ33 | dbus_fsm[1]  | In?   |
+| FMCP_HSPC_LA13_P    | AJ35 | dbus_fsm[2]  | In?   |
+| FMCP_HSPC_LA14_P    | AG31 | fb_d_out     | In?   |
+| FMCP_HSPC_LA17_CC_P | R34  | fb_d_out_vld | In?   |
+| FMCP_HSPC_LA18_CC_P | R31  | fb_d_clsc    | In?   |
+| FMCP_HSPC_LA23_P    | Y32  | fb_d_in      | Out?  |
+| FMCP_HSPC_LA26_P    | V32  | fb_d_in_vld  | Out?  |

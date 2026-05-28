@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER husk_axi_port
+	OPTION supported_peripherals = (husk_axi_port);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = husk_axi_port;
+END DRIVER
